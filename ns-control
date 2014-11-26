@@ -7,14 +7,17 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: jmcvetta-workstation
-Version: 1.0
+Version: 1.2
 Maintainer: Jason McVetta <jason.mcvetta@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: 
  agave,
+ autoconf,
+ bison, 
  build-essential,
  byobu,
  chromium-browser,
+ equivs,
  fortune,
  fortunes-bofh-excuses,
  fortunes-debian-hints,
@@ -32,6 +35,11 @@ Depends:
  iotop,
  libc6-dev,
  libc6-dev-i386,
+ libncurses5-dev,
+ libreadline6-dev,
+ libssl-dev,
+ libtinfo-dev,
+ libyaml-dev, 
  mercurial,
  openjdk-8-jdk,
  rbenv,
@@ -39,7 +47,8 @@ Depends:
  subversion,
  vim,
  virtualenvwrapper,
- whois
+ whois,
+ zlib1g-dev
 # Recommends: <comma-separated list of packages>
 # Suggests: <comma-separated list of packages>
 # Provides: <comma-separated list of packages>
