@@ -10,7 +10,36 @@ Package: jmcvetta-workstation
 Version: 1.0
 Maintainer: Jason McVetta <jason.mcvetta@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
-Depends: agave, build-essential, byobu, chromium-browser, fortune, fortunes-bofh-excuses, fortunes-debian-hints, fortunes-off, fortunes-spam, fortunes-ubuntu-server, gcc, gimp, git, git-svn, glabels, haskell-platform, htop, indicator-multiload, iotop, libc6-dev, libc6-dev-i386, mercurial, openjdk-8-jdk, rbenv, ruby, subversion, vim, virtualenvwrapper, whois
+Depends: 
+ agave,
+ build-essential,
+ byobu,
+ chromium-browser,
+ fortune,
+ fortunes-bofh-excuses,
+ fortunes-debian-hints,
+ fortunes-off,
+ fortunes-spam,
+ fortunes-ubuntu-server,
+ gcc,
+ gimp,
+ git,
+ git-svn,
+ glabels,
+ haskell-platform,
+ htop,
+ indicator-multiload,
+ iotop,
+ libc6-dev,
+ libc6-dev-i386,
+ mercurial,
+ openjdk-8-jdk,
+ rbenv,
+ ruby,
+ subversion,
+ vim,
+ virtualenvwrapper,
+ whois
 # Recommends: <comma-separated list of packages>
 # Suggests: <comma-separated list of packages>
 # Provides: <comma-separated list of packages>
