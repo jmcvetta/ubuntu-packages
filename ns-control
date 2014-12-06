@@ -7,7 +7,7 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: jmcvetta-workstation
-Version: 1.2
+Version: 1.3
 Maintainer: Jason McVetta <jason.mcvetta@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: 
@@ -46,6 +46,7 @@ Depends:
  ruby,
  subversion,
  vim,
+ virtualbox,
  virtualenvwrapper,
  whois,
  zlib1g-dev
