@@ -7,7 +7,7 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: jmcvetta-workstation
-Version: 1.4
+Version: 1.5
 Maintainer: Jason McVetta <jason.mcvetta@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: 
@@ -29,6 +29,7 @@ Depends:
  git,
  git-svn,
  glabels,
+ gnome-gmail,
  haskell-platform,
  htop,
  indicator-multiload,
