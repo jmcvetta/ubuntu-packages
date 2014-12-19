@@ -7,7 +7,7 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: jmcvetta-workstation
-Version: 1.8
+Version: 1.9
 Maintainer: Jason McVetta <jason.mcvetta@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: 
@@ -49,6 +49,7 @@ Depends:
  openjdk-8-jdk,
  rbenv,
  ruby,
+ ruby-build,
  subversion,
  vim,
  virtualbox,
