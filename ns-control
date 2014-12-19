@@ -7,7 +7,7 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: jmcvetta-workstation
-Version: 1.7
+Version: 1.8
 Maintainer: Jason McVetta <jason.mcvetta@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: 
@@ -44,6 +44,8 @@ Depends:
  libtinfo-dev,
  libyaml-dev, 
  mercurial,
+ nodejs,
+ npm,
  openjdk-8-jdk,
  rbenv,
  ruby,
