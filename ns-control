@@ -7,7 +7,7 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: jmcvetta-workstation
-Version: 1.10
+Version: 1.11
 Maintainer: Jason McVetta <jason.mcvetta@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: 
@@ -46,8 +46,11 @@ Depends:
  libyaml-dev, 
  mercurial,
  nodejs,
+ nodejs-legacy,
  npm,
  openjdk-8-jdk,
+ p7zip-full,
+ p7zip-rar,
  rbenv,
  ruby,
  ruby-build,
