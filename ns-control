@@ -7,7 +7,7 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: jmcvetta-workstation
-Version: 1.11
+Version: 1.12
 Maintainer: Jason McVetta <jason.mcvetta@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: 
@@ -38,12 +38,16 @@ Depends:
  iotop,
  libc6-dev,
  libc6-dev-i386,
+ libeditline-dev,
  libncurses5-dev,
  libreadline6-dev,
  libpcre3-dev,
+ libreadline-dev,
  libssl-dev,
  libtinfo-dev,
  libyaml-dev, 
+ llvm,
+ llvm-dev,
  mercurial,
  nodejs,
  nodejs-legacy,
@@ -51,9 +55,11 @@ Depends:
  openjdk-8-jdk,
  p7zip-full,
  p7zip-rar,
+ rake,
  rbenv,
  ruby,
  ruby-build,
+ ruby-dev,
  subversion,
  vim,
  virtualbox,
