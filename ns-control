@@ -62,6 +62,7 @@ Depends:
  shutter,
  subversion,
  vim,
+ vim-gnome,
  virtualbox,
  virtualenvwrapper,
  whois,
