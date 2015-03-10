@@ -7,7 +7,7 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: jmcvetta-workstation
-Version: 1.14
+Version: 1.15
 Maintainer: Jason McVetta <jason.mcvetta@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: 
@@ -28,6 +28,7 @@ Depends:
  gcc,
  gimp,
  git,
+ git-flow,
  git-svn,
  glabels,
  gnome-gmail,
