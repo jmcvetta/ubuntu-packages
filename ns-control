@@ -56,7 +56,7 @@ Depends:
  openjdk-8-jdk,
  p7zip-full,
  p7zip-rar,
- postgresql-client-common,
+ postgresql-client,
  rake,
  rbenv,
  ruby,
