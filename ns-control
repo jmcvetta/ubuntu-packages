@@ -7,7 +7,7 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: jmcvetta-workstation
-Version: 1.17
+Version: 1.18
 Maintainer: Jason McVetta <jason.mcvetta@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: 
@@ -64,6 +64,7 @@ Depends:
  ruby-dev,
  shutter,
  subversion,
+ texlive-latex-base,
  vim,
  vim-gnome,
  virtualbox,
