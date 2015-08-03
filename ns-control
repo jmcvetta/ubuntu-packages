@@ -7,11 +7,12 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: jmcvetta-workstation
-Version: 1.18
+Version: 1.19
 Maintainer: Jason McVetta <jason.mcvetta@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: 
  agave,
+ audacious,
  autoconf,
  bison, 
  build-essential,
