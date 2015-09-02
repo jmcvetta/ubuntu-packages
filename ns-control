@@ -7,7 +7,7 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: jmcvetta-workstation
-Version: 1.19
+Version: 1.20
 Maintainer: Jason McVetta <jason.mcvetta@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: 
@@ -44,6 +44,7 @@ Depends:
  libncurses5-dev,
  libreadline6-dev,
  libpcre3-dev,
+ libpq-dev,
  libreadline-dev,
  libssl-dev,
  libtinfo-dev,
@@ -58,6 +59,7 @@ Depends:
  p7zip-full,
  p7zip-rar,
  postgresql-client,
+ python-dev,
  rake,
  rbenv,
  ruby,
