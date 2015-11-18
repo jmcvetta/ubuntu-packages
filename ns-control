@@ -7,7 +7,7 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: jmcvetta-workstation
-Version: 1.24
+Version: 1.25
 Maintainer: Jason McVetta <jason.mcvetta@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: 
@@ -21,6 +21,7 @@ Depends:
  bzr,
  chromium-browser,
  colordiff,
+ dconf-editor,
  equivs,
  fortune,
  fortunes-bofh-excuses,
