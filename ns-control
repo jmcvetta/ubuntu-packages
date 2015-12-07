@@ -7,7 +7,7 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: jmcvetta-workstation
-Version: 1.25
+Version: 1.26
 Maintainer: Jason McVetta <jason.mcvetta@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: 
@@ -41,6 +41,8 @@ Depends:
  htop,
  indicator-multiload,
  iotop,
+ ipython,
+ ipython-notebook,
  libc6-dev,
  libc6-dev-i386,
  libeditline-dev,
@@ -65,7 +67,6 @@ Depends:
  pwgen,
  python-dev,
  rake,
- rbenv,
  ruby,
  ruby-build,
  ruby-dev,
