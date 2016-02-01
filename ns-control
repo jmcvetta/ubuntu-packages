@@ -7,7 +7,7 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: jmcvetta-workstation
-Version: 1.28
+Version: 1.29
 Maintainer: Jason McVetta <jason.mcvetta@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: 
@@ -71,6 +71,7 @@ Depends:
  shutter,
  subversion,
  texlive-latex-base,
+ ubuntu-desktop,
  unetbootin,
  vagrant,
  vim,
