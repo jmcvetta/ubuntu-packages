@@ -7,7 +7,7 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: jmcvetta-workstation
-Version: 1.36
+Version: 1.37
 Maintainer: Jason McVetta <jason.mcvetta@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: 
@@ -60,6 +60,8 @@ Depends:
  llvm-dev,
  mercurial,
  mysql-client,
+ nodejs,
+ nodejs-legacy,
  npm,
  openjdk-8-jdk,
  p7zip-full,
