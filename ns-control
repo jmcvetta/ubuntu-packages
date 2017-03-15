@@ -7,7 +7,7 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: jmcvetta-workstation
-Version: 1.40
+Version: 1.41
 Maintainer: Jason McVetta <jason.mcvetta@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: 
@@ -16,7 +16,6 @@ Depends:
  audacious,
  autoconf,
  bison, 
- blueman,
  build-essential,
  byobu,
  bzr,
