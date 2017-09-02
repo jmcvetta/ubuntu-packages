@@ -11,4 +11,4 @@ apt-get dist-upgrade -y &&
 
 apt-get install -y gdebi &&
 
-gdebi jmcvetta-workstation_*.deb
+gdebi -n jmcvetta-workstation_*.deb
