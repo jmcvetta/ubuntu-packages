@@ -7,7 +7,7 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: jmcvetta-workstation
-Version: 1.42
+Version: 1.43
 Maintainer: Jason McVetta <jason.mcvetta@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: 
@@ -63,7 +63,6 @@ Depends:
  mysql-client,
  mysql-workbench,
  nodejs,
- nodejs-legacy,
  npm,
  openjdk-8-jdk,
  p7zip-full,
@@ -89,6 +88,7 @@ Depends:
  virtualenvwrapper,
  whois,
  xdot,
+ yarn,
  zlib1g-dev,
  zsh
 # Recommends: <comma-separated list of packages>
