@@ -6,8 +6,7 @@
 #===============================================================================
 
 # Upgrade all packages
-apt-get update &&
-apt-get dist-upgrade -y &&
+apt-get update
 
 
 # Required to add PPAs
@@ -15,8 +14,7 @@ apt-get install -y \
     apt-transport-https \
     apt-utils \
     curl \
-    gdebi \
-    &&
+    gdebi
 
 
 # Yarn PPA
@@ -29,3 +27,5 @@ curl -sL https://deb.nodesource.com/setup_6.x | bash -
 
 
 gdebi -n jmcvetta-workstation_*.deb
+
+apt-get dist-upgrade -y
