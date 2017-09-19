@@ -7,7 +7,7 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: jmcvetta-workstation
-Version: 1.43
+Version: 1.44
 Maintainer: Jason McVetta <jason.mcvetta@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: 
@@ -20,6 +20,7 @@ Depends:
  build-essential,
  byobu,
  bzr,
+ calibre,
  chromium-browser,
  colordiff,
  dconf-editor,
