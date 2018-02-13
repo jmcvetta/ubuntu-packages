@@ -7,7 +7,7 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: jmcvetta-workstation
-Version: 1.46
+Version: 1.47
 Maintainer: Jason McVetta <jason.mcvetta@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: 
@@ -60,7 +60,6 @@ Depends:
  libyaml-dev, 
  llvm,
  llvm-dev,
- mariadb-client,
  maven,
  mercurial,
  mysql-workbench,
