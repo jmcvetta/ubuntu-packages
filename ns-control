@@ -7,7 +7,7 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: jmcvetta-workstation
-Version: 1.48
+Version: 1.49
 Maintainer: Jason McVetta <jason.mcvetta@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: 
@@ -63,7 +63,6 @@ Depends:
  maven,
  mercurial,
  mysql-workbench,
- nodejs,
  openjdk-8-jdk,
  p7zip-full,
  p7zip-rar,
@@ -88,7 +87,6 @@ Depends:
  virtualenvwrapper,
  whois,
  xdot,
- yarn,
  zlib1g-dev,
  zsh
 # Recommends: <comma-separated list of packages>
