@@ -64,6 +64,7 @@ Depends:
  mercurial,
  mysql-workbench,
  openjdk-8-jdk,
+ openvpn,
  p7zip-full,
  p7zip-rar,
  pgadmin3,
