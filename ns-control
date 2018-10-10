@@ -7,7 +7,7 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: jmcvetta-workstation
-Version: 1.49
+Version: 1.50
 Maintainer: Jason McVetta <jason.mcvetta@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: 
@@ -47,6 +47,7 @@ Depends:
  iotop,
  ipython,
  ipython-notebook,
+ jq,
  libc6-dev,
  libc6-dev-i386,
  libeditline-dev,
