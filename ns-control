@@ -7,11 +7,10 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: jmcvetta-workstation
-Version: 1.50
+Version: 1.52
 Maintainer: Jason McVetta <jason.mcvetta@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: 
- agave,
  apt-file,
  at,
  audacious,
@@ -46,7 +45,6 @@ Depends:
  indicator-multiload,
  iotop,
  ipython,
- ipython-notebook,
  jq,
  libc6-dev,
  libc6-dev-i386,
@@ -63,7 +61,6 @@ Depends:
  llvm-dev,
  maven,
  mercurial,
- mysql-workbench,
  openjdk-8-jdk,
  openvpn,
  p7zip-full,
@@ -76,12 +73,10 @@ Depends:
  ruby,
  ruby-build,
  ruby-dev,
- shutter,
  sshuttle,
  subversion,
  texlive-latex-base,
  traceroute,
- unetbootin,
  vagrant,
  vim,
  vim-gnome,
