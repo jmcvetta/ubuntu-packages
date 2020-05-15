@@ -30,4 +30,4 @@ apt-get dist-upgrade -y
 
 
 # Install Snap packages
-snap install go
+snap install --classic go
