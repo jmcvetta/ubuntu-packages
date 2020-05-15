@@ -7,7 +7,7 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: jmcvetta-workstation
-Version: 1.52
+Version: 1.53
 Maintainer: Jason McVetta <jason.mcvetta@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: 
@@ -44,16 +44,15 @@ Depends:
  httpie,
  indicator-multiload,
  iotop,
- ipython,
  jq,
  libc6-dev,
  libc6-dev-i386,
  libeditline-dev,
  libncurses5-dev,
- libreadline6-dev,
  libpcre3-dev,
  libpq-dev,
  libreadline-dev,
+ libreadline6-dev,
  libssl-dev,
  libtinfo-dev,
  libyaml-dev, 
@@ -61,7 +60,7 @@ Depends:
  llvm-dev,
  maven,
  mercurial,
- openjdk-8-jdk,
+ openjdk-14-jdk,
  openvpn,
  p7zip-full,
  p7zip-rar,
@@ -69,6 +68,7 @@ Depends:
  postgresql-client,
  pwgen,
  python-dev,
+ python3-ipython,
  rake,
  ruby,
  ruby-build,
@@ -79,7 +79,6 @@ Depends:
  traceroute,
  vagrant,
  vim,
- vim-gnome,
  virtualbox,
  virtualenvwrapper,
  whois,
