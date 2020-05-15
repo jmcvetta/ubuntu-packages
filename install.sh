@@ -5,6 +5,10 @@
 #
 #===============================================================================
 
+# Echo commands as they are run
+set -x
+
+
 # Upgrade all packages
 apt-get update
 
