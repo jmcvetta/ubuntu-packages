@@ -7,7 +7,7 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: jmcvetta-workstation
-Version: 1.53
+Version: 1.54
 Maintainer: Jason McVetta <jason.mcvetta@gmail.com>
 # Pre-Depends: <comma-separated list of packages>
 Depends: 
@@ -83,6 +83,7 @@ Depends:
  virtualenvwrapper,
  whois,
  xdot,
+ xserver-xorg-input-synaptics,
  zlib1g-dev,
  zsh
 # Recommends: <comma-separated list of packages>
