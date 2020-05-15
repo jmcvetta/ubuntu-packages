@@ -21,6 +21,13 @@ apt-get install -y \
     gdebi
 
 
+# Install Ubuntu APT packages
 gdebi -n jmcvetta-workstation_*.deb
 
+
+# Upgrade all packages
 apt-get dist-upgrade -y
+
+
+# Install Snap packages
+snap install go
