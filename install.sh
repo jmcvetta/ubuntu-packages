@@ -21,6 +21,10 @@ apt-get install -y \
     gdebi
 
 
+# Add Shutter PPA
+add-apt-repository --yes ppa:shutter/ppa
+
+
 # Install Ubuntu APT packages
 gdebi -n jmcvetta-workstation_*.deb
 
