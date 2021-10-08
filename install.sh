@@ -5,6 +5,13 @@
 #
 #===============================================================================
 
+# Ensure this script is run as root
+if [[ `id -u` -ne 0 ]]; then
+    echo "Please run as root" ;
+    exit 1 ;
+fi
+
+
 # Echo commands as they are run
 set -x
 
