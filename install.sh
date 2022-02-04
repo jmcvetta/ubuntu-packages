@@ -20,23 +20,15 @@ set -x
 apt-get update
 
 
-# Required to add PPAs
-apt-get install -y \
-    apt-transport-https \
-    apt-utils \
-    curl
-
-
-# Add Shutter PPA
-add-apt-repository --yes ppa:shutter/ppa
-
-
 # Upgrade all packages
 apt-get dist-upgrade -y
 
 
+# Install useful packages
 sudo apt install -y \
  apt-file \
+ apt-transport-https \
+ apt-utils \
  at \
  audacious \
  autoconf \
@@ -47,9 +39,11 @@ sudo apt install -y \
  calibre \
  chromium-browser \
  colordiff \
+ curl \
  dconf-editor \
  direnv \
  equivs \
+ flameshot \
  fortune \
  fortunes-bofh-excuses \
  fortunes-debian-hints \
@@ -98,7 +92,6 @@ sudo apt install -y \
  ruby \
  ruby-build \
  ruby-dev \
- shutter \
  sshuttle \
  subversion \
  texlive-latex-base \
