@@ -24,21 +24,91 @@ apt-get update
 apt-get install -y \
     apt-transport-https \
     apt-utils \
-    curl \
-    gdebi
+    curl
 
 
 # Add Shutter PPA
 add-apt-repository --yes ppa:shutter/ppa
 
 
-# Install Ubuntu APT packages
-gdebi -n jmcvetta-workstation_*.deb
-
-
 # Upgrade all packages
 apt-get dist-upgrade -y
 
 
-# Install Snap packages
-snap install --classic go
+sudo apt install -y \
+ apt-file \
+ at \
+ audacious \
+ autoconf \
+ bison \
+ build-essential \
+ byobu \
+ bzr \
+ calibre \
+ chromium-browser \
+ colordiff \
+ dconf-editor \
+ direnv \
+ equivs \
+ fortune \
+ fortunes-bofh-excuses \
+ fortunes-debian-hints \
+ fortunes-off \
+ fortunes-spam \
+ fortunes-ubuntu-server \
+ gcc \
+ gimp \
+ git \
+ git-flow \
+ git-svn \
+ glabels \
+ gnome-gmail \
+ gnome-tweaks \
+ gnome-web-photo \
+ gparted \
+ haskell-platform \
+ htop \
+ httpie \
+ indicator-multiload \
+ iotop \
+ jq \
+ libc6-dev \
+ libc6-dev-i386 \
+ libncurses5-dev \
+ libpcre3-dev \
+ libpq-dev \
+ libreadline-dev \
+ libreadline6-dev \
+ libssl-dev \
+ libtinfo-dev \
+ libyaml-dev \
+ llvm \
+ llvm-dev \
+ maven \
+ mercurial \
+ openjdk-17-jdk \
+ openvpn \
+ p7zip-full \
+ p7zip-rar \
+ postgresql-client \
+ pwgen \
+ python-dev \
+ python3-ipython \
+ rake \
+ ruby \
+ ruby-build \
+ ruby-dev \
+ shutter \
+ sshuttle \
+ subversion \
+ texlive-latex-base \
+ traceroute \
+ vagrant \
+ vim \
+ virtualbox \
+ virtualenvwrapper \
+ whois \
+ xdot \
+ xserver-xorg-input-synaptics \
+ zlib1g-dev \
+ zsh
