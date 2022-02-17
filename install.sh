@@ -63,9 +63,9 @@ sudo apt install -y \
     haskell-platform \
     htop \
     httpie \
-    indicator-multiload \
     iotop \
     jq \
+    libbz2-dev \
     libc6-dev \
     libc6-dev-i386 \
     libncurses5-dev \
