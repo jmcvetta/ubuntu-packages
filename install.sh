@@ -83,6 +83,7 @@ sudo apt install -y \
     python3-dev \
     python3-ipython \
     rake \
+    restic \
     ruby \
     ruby-build \
     ruby-dev \
