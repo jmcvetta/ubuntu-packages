@@ -54,7 +54,6 @@ sudo apt install -y \
     git-flow \
     glabels \
     gnome-gmail \
-    gnome-web-photo \
     gparted \
     haskell-platform \
     htop \
@@ -64,7 +63,7 @@ sudo apt install -y \
     libbz2-dev \
     libc6-dev \
     libc6-dev-i386 \
-    libfuse2libfuse2 \
+    libfuse2 \
     libncurses5-dev \
     libpcre3-dev \
     libpq-dev \
