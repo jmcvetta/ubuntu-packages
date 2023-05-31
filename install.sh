@@ -35,6 +35,7 @@ sudo apt install -y \
     bison \
     build-essential \
     byobu \
+    calibre \
     chromium-browser \
     colordiff \
     curl \
