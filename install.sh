@@ -53,6 +53,7 @@ sudo apt install -y \
     git \
     git-flow \
     glabels \
+    gnome-clocks \
     gnome-gmail \
     gparted \
     haskell-platform \
