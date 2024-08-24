@@ -46,17 +46,16 @@ sudo apt install -y \
     fortune \
     fortunes-bofh-excuses \
     fortunes-debian-hints \
-    fortunes-off \
     fortunes-spam \
     fortunes-ubuntu-server \
     gcc \
     git \
     git-flow \
     glabels \
+    glances \
     gnome-clocks \
     gnome-gmail \
     gparted \
-    haskell-platform \
     htop \
     httpie \
     iotop \
