@@ -74,7 +74,7 @@ sudo apt install -y \
     llvm \
     llvm-dev \
     maven \
-    openjdk-17-jdk \
+    openjdk-21-jdk \
     openvpn \
     p7zip-full \
     p7zip-rar \
