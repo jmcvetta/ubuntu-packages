@@ -15,6 +15,7 @@ sudo RESTIC_PASSWORD="$RESTIC_PASSWORD" restic \
 	-e .asdf \
 	-e .cache \
 	-e .cargo \
+	-e .codeium/ws-browser/ \
 	-e .config/GIMP \
 	-e .config/google-chrome \
 	-e .local \
