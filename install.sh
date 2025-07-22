@@ -40,6 +40,7 @@ sudo apt install -y \
     colordiff \
     curl \
     dconf-editor \
+    git-delta \
     direnv \
     equivs \
     flameshot \
@@ -54,7 +55,7 @@ sudo apt install -y \
     glabels \
     glances \
     gnome-clocks \
-    gnome-gmail \
+    gnome-tweak-tool \
     gparted \
     htop \
     httpie \
