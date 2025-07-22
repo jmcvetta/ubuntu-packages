@@ -40,8 +40,9 @@ sudo apt install -y \
     colordiff \
     curl \
     dconf-editor \
-    git-delta \
     direnv \
+    docker-compose-v2 \
+    docker.io \
     equivs \
     flameshot \
     fortune \
@@ -51,6 +52,7 @@ sudo apt install -y \
     fortunes-ubuntu-server \
     gcc \
     git \
+    git-delta \
     git-flow \
     glabels \
     glances \
