@@ -51,6 +51,7 @@ sudo apt install -y \
     fortunes-spam \
     fortunes-ubuntu-server \
     gcc \
+    gh \
     git \
     git-delta \
     git-flow \
