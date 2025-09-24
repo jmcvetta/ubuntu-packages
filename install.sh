@@ -91,6 +91,7 @@ sudo apt install -y \
     ruby \
     ruby-build \
     ruby-dev \
+    ssh-askpass \
     sshuttle \
     subversion \
     traceroute \
