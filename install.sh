@@ -68,6 +68,7 @@ sudo apt install -y \
     libc6-dev \
     libc6-dev-i386 \
     libfuse2 \
+    liblzma-dev \
     libncurses5-dev \
     libpcre3-dev \
     libpq-dev \
