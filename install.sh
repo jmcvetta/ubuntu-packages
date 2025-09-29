@@ -95,6 +95,7 @@ sudo apt install -y \
     ssh-askpass \
     sshuttle \
     subversion \
+    tk-dev \
     traceroute \
     vim \
     virtualenvwrapper \
